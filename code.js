@@ -80,6 +80,7 @@ var A0, A1, A10, A11, A12, A13, A14, A15, A16, A17, A18, A19, A2, A20, A21, A22,
   A25 = {
     "A": "A","B": "B","C": "C","D": "D","E": "E","F": "F","G": "G","H": "H","I": "I","J": "J","K": "K","L": "L","M": "M","N": "N","O": "O","P": "P","Q": "Q","R": "R","S": "S","T": "T","U": "U","V": "V","W": "W","X": "X","Y": "Y","Z": "Z"
   };
+while (true) {
 if (shift.value === "1") {
   output.innerHTML(A0[text.value])
 }
@@ -157,4 +158,5 @@ if (shift.value === "25") {
 }
 if (shift.value === "26") {
   output.innerHTML(A25[text.value])
+}
 }
